@@ -94,7 +94,7 @@ Devemos instalar algumas extensões no VS Code para prosseguir com a instalaçã
 
 ![](https://i.imgur.com/rV5MIl8.png)
 
-### Clonar projeto back-end
+### Clonar repositório
 O primeiro passo é realizar o git-clone do projeto.
 1. Abra o Windows Terminal.
 2. Execute o comando:
@@ -102,17 +102,35 @@ O primeiro passo é realizar o git-clone do projeto.
 wsl
 cd ~
 ~~~
-3. Vamos clonar o projeto back-end
+3. Vamos clonar o projeto
 ~~~powershell
-git clone https://github.com/demiguic/HOTEL-MPS/tree/docker
+git clone https://github.com/demiguic/HOTEL-MPS.git
 ~~~
 Pode acontecer erro de autenticação por senha no clone do back-end, acesse o seguinte link para resolver este impedimento: [Token authentication requirements for Git operations](https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/).
 ![](https://i.imgur.com/8strcH5.png)
 <br><br>
 :bulb: **Info:** É importante que você tenha acesso ao repositório para concluir este passo e prosseguir para os próximos.<br><br>
+4.Execute o comando *code .*
+~~~powershell
+code .
+~~~
 
-5. Agora vamos executar o docker compose.
+6. Alterar pra branch docker
+<br>
+    - Selecione o botão de branch no canto inferior esquerdo da interface do VS Code
+    - Na aba que se abre, selecione *origin/docker*
+    <br>
+
+![](https://i.imgur.com/D3oUiIx.png)
+
+6. Agora vamos executar o docker compose.
 ~~~powershell
 cd HOTEL-MPS
 docker-compose up -d --build
 ~~~
+
+7. Abra o navegador e acesse *localhost*
+![](https://i.imgur.com/CNIBxcN.png)
+
+Após isso, a aplicação deve estar disponível em ambiente local com docker
+:)
