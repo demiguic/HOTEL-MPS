@@ -2,7 +2,7 @@
     <li><a href="#ativar-hyper-v">Ativar Hyper-v</a></li>
     <li><a href="#instalação-do-wsl2---automática">Instalação do WSL2</a></li>
     <li><a href="#instalação-do-docker-desktop">Instalação do Docker Desktop</a></li>
-    <li><a href="#sobre">Sobre</a></li>
+    <li><a href="#clonar-repositório">Clonar Repositório</a></li>
   </ol>
 </details>
 
@@ -94,7 +94,7 @@ Devemos instalar algumas extensões no VS Code para prosseguir com a instalaçã
 
 ![](https://i.imgur.com/rV5MIl8.png)
 
-### Clonar repositório
+## Clonar repositório
 O primeiro passo é realizar o git-clone do projeto.
 1. Abra o Windows Terminal.
 2. Execute o comando:
@@ -107,7 +107,7 @@ cd ~
 git clone https://github.com/demiguic/HOTEL-MPS.git
 ~~~
 Pode acontecer erro de autenticação por senha no clone do back-end, acesse o seguinte link para resolver este impedimento: [Token authentication requirements for Git operations](https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/).
-![](https://i.imgur.com/8strcH5.png)
+![](https://i.imgur.com/yJx5wBD.png)
 <br><br>
 :bulb: **Info:** É importante que você tenha acesso ao repositório para concluir este passo e prosseguir para os próximos.<br><br>
 4.Execute o comando *code .*
