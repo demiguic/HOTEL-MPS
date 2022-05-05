@@ -150,6 +150,7 @@
                         <div class="col-lg-2 mb-3">
                             <label class="form-label">Crianças</label>
                             <select class="form-select shadow-none">
+                                <option value="0">------</option>
                                 <option value="1">One</option>
                                 <option value="2">Two</option>
                                 <option value="3">Three</option>
@@ -191,11 +192,12 @@
                 <div class="card border-0 shadow" style="max-width: 350px; margin:auto">
                     <img src="assets\images\rooms\1.png" class="card-img-top">
                     <div class="card-body">
-                        <h5 class="card-title">Quarto Solteiro</h5>
-                        <h6 class="mb-4">R$70 por noite</h6>
+                        <h5 class="card-title">Quarto Casal</h5>
+                        <h6 class="mb-4">R$100 por noite</h6>
                         <div class="avaliacao mb-4">
                             <h6 class="mb-1">Avaliação</h6>
                             <span>
+                                <i class="bi bi-star-fill text-warning"></i>
                                 <i class="bi bi-star-fill text-warning"></i>
                                 <i class="bi bi-star-fill text-warning"></i>
                                 <i class="bi bi-star-fill text-warning"></i>
@@ -210,8 +212,8 @@
                 <div class="card border-0 shadow" style="max-width: 350px; margin:auto">
                     <img src="assets\images\rooms\1.png" class="card-img-top">
                     <div class="card-body">
-                        <h5 class="card-title">Quarto Solteiro</h5>
-                        <h6 class="mb-4">R$70 por noite</h6>
+                        <h5 class="card-title">Quarto Triplo</h5>
+                        <h6 class="mb-4">R$150 por noite</h6>
                         <div class="avaliacao mb-4">
                             <h6 class="mb-1">Avaliação</h6>
                             <span>
